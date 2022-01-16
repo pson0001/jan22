@@ -45,3 +45,14 @@
     margin-bottom: 40px;
   }
 }
+.linkedin {
+  text-decoration: underline;
+  position: relative;
+  margin-right: 40px;
+  cursor: pointer;
+  color: $font;
+  & svg {
+    top: -6px;
+    position: absolute;
+  }
+}

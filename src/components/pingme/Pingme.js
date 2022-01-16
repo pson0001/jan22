@@ -1,6 +1,6 @@
 import React from 'react'
 import './pingme.scss'
-import cats from './../../assets/cats.png'
+import Icon from '../../assets/Icon'
 const Pingme = () => {
   return (
     <div className="aboutContainer">
@@ -19,8 +19,15 @@ const Pingme = () => {
             creativity, solving problems, interaction and motion design.
           </span>
           <span className="description">
-            If you are interested in my experience, you can pay a visit to my
-            Linkedin profile. Thank you for stopping by!
+            If you are interested in my experience, you can pay a visit to my{' '}
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/ping-song-pson0001/"
+              className="linkedin"
+            >
+              Linkedin <Icon.Link />
+            </a>{' '}
+            profile. Thank you for stopping by!
           </span>
         </div>
       </div>
