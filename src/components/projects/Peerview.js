@@ -330,7 +330,7 @@ const Coursemapper = () => {
             <Link to="/project/coursemapper" className="buttonItem previous">
               <span className="arrow"></span>
               <span className="arrowLine"></span>
-              <span className="arrowText">Course Mapper</span>
+              <span className="arrowText">Previous</span>
             </Link>
             {/* <Link to="/" className="buttonItem next">
               <span className="arrowText">Next</span>

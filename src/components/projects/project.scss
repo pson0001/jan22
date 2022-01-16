@@ -13,14 +13,14 @@ p {
 .projectContentContainer {
   margin: 160px auto 0px;
   padding: 0px 120px;
-  max-width: 1600px;
+  max-width: 1400px;
 }
 .projectIntroContainer {
   display: flex;
-  flex-direction: row;
-  gap: 4rem;
+  flex-direction: column;
+  gap: 1rem;
   .projectTitle {
-    flex: 1 0 30%;
+    flex: 1 0 50%;
     .label {
       display: flex;
       flex-direction: column;
@@ -54,7 +54,9 @@ p {
     font-weight: 800;
     font-size: 1.6rem;
   }
-
+  li {
+    font-weight: 300;
+  }
   .sectionContentContainer {
     display: flex;
     flex-direction: row;
@@ -91,6 +93,9 @@ p {
         margin-bottom: 15px;
       }
     }
+  }
+  .imgContainer {
+    margin-top: 20px;
   }
 }
 
@@ -182,4 +187,7 @@ p {
       }
     }
   }
+}
+.right {
+  justify-content: flex-end;
 }

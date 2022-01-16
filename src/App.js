@@ -7,6 +7,7 @@ import Navigation from './components/navigation/Navigation'
 import Coursemapper from './components/projects/Coursemapper'
 import Peerview from './components/projects/Peerview'
 import ImgWrapper from './utils/ImgWrapper'
+import Pingme from './components/pingme/Pingme'
 function App() {
   const location = useLocation()
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/project/coursemapper" element={<Coursemapper />} />
             <Route path="/project/peerview" element={<Peerview />} />
+            <Route path="/pingme" element={<Pingme />} />
           </Routes>
         </AnimatePresence>
       </ImgWrapper>
