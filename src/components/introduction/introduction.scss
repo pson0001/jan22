@@ -1,0 +1,89 @@
+@import './../../styles/variables.scss';
+
+.introContainer {
+  position: relative;
+  padding: 200px 120px;
+
+  .content {
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .imgContainer {
+    position: absolute;
+    right: 500px;
+
+    .person {
+      position: absolute;
+      width: 500px;
+    }
+    .bulb {
+      position: absolute;
+      width: 120px;
+      top: 60px;
+      left: -40px;
+    }
+    .computer {
+      position: absolute;
+      width: 110px;
+      top: 340px;
+      left: 40px;
+    }
+    .pen {
+      position: absolute;
+      width: 110px;
+      top: 220px;
+      left: 380px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .row {
+    overflow: hidden;
+  }
+  .title {
+    font-size: 6rem;
+    line-height: 6rem;
+    margin: 20px 0px;
+    font-weight: 800;
+    position: relative;
+  }
+  .design {
+    &::after {
+      content: 'UX/UI';
+      position: absolute;
+      line-height: 1rem;
+      top: -1rem;
+      left: 21rem;
+      width: 75px;
+      height: 75px;
+      border-radius: 60px;
+      border: solid 2px $font;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+    }
+  }
+  .programming {
+    &::after {
+      content: 'Front end';
+      text-align: center;
+      position: absolute;
+      line-height: 1rem;
+      top: -1rem;
+      left: 42rem;
+      width: 75px;
+      height: 75px;
+      border-radius: 60px;
+      border: solid 2px $font;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1rem;
+    }
+  }
+}

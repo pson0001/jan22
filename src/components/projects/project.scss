@@ -1,0 +1,185 @@
+@import './../../styles/variables.scss';
+p {
+  font-weight: 300;
+}
+.projectContainer {
+  width: 100%;
+
+  img {
+    background-position: cover;
+    width: 100%;
+  }
+}
+.projectContentContainer {
+  margin: 160px auto 0px;
+  padding: 0px 120px;
+  max-width: 1600px;
+}
+.projectIntroContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  .projectTitle {
+    flex: 1 0 30%;
+    .label {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      .subLabel {
+        font-size: 1rem;
+        color: $grey;
+        margin-bottom: 0.2rem;
+        font-weight: 300;
+      }
+      .title {
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      .subTitle {
+        font-weight: 500;
+      }
+    }
+  }
+  .projectIntro {
+    flex: 0 3 auto;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.projectContent {
+  .sectionTitle {
+    font-weight: 800;
+    font-size: 1.6rem;
+  }
+
+  .sectionContentContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .sectionContentItem {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      &.sectionContentItemFull {
+        margin-top: 40px;
+        width: 100%;
+      }
+      &.sectionContentItemFullSingle {
+        margin-top: 0px;
+        width: 100%;
+      }
+      > span {
+        margin-bottom: 10px;
+        font-weight: 300;
+        &.itemTitle {
+          font-weight: 700;
+        }
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $iconBackground;
+        height: 65px;
+        width: 65px;
+        border-radius: 99px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.line {
+  margin: 60px 0;
+  border-top: 2px solid $font;
+  opacity: 0.1;
+}
+
+.navigateButton {
+  margin: 100px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .arrow {
+    border: solid $font;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin-top: 2px;
+    padding: 5px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .arrowLine {
+    top: 36px;
+    position: absolute;
+    display: inline-block;
+    width: 0px;
+    height: 2px;
+    background-color: $font;
+    z-index: 99;
+    transition: all 0.4s ease;
+  }
+  .arrowText {
+    padding-left: 10px;
+    transition: all 0.4s ease;
+    color: $font;
+  }
+
+  .buttonItem {
+    position: relative;
+    padding: 20px 0px;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.4s ease;
+    &:hover {
+      & .arrowLine {
+        width: 100px;
+      }
+      & .arrowText {
+        transition: all 0.4s ease;
+      }
+    }
+  }
+
+  & .previous {
+    &.arrow {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+    & .arrowLine {
+      left: 0px;
+    }
+    &:hover {
+      & .arrowText {
+        padding-left: 120px;
+      }
+    }
+  }
+  & .next {
+    & .arrow {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    & .arrowLine {
+      right: 0px;
+    }
+    & .arrowText {
+      padding-right: 10px;
+      transition: all 0.4s ease;
+    }
+    &:hover {
+      & .arrowText {
+        padding-right: 120px;
+      }
+    }
+  }
+}

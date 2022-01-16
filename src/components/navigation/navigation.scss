@@ -1,0 +1,30 @@
+@import './../../styles/variables.scss';
+.navigationContainer {
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 120px;
+  }
+  a {
+    text-decoration: none;
+    color: $font;
+  }
+  .home {
+    width: 2rem;
+    height: 2rem;
+
+    border: 2px solid $font;
+    border-radius: 40px;
+
+    & span {
+      color: $font;
+      margin-left: 11px;
+      line-height: 2rem;
+      font-weight: 800;
+    }
+  }
+}

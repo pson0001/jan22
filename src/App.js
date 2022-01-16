@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.scss'
+import React from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
+import Home from './components/home/Home'
+import Navigation from './components/navigation/Navigation'
+import Coursemapper from './components/projects/Coursemapper'
+import Peerview from './components/projects/Peerview'
+import ImgWrapper from './utils/ImgWrapper'
 function App() {
+  const location = useLocation()
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <ImgWrapper>
+        <Navigation />
+        <AnimatePresence exitBeforeEnter>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/project/coursemapper" element={<Coursemapper />} />
+            <Route path="/project/peerview" element={<Peerview />} />
+          </Routes>
+        </AnimatePresence>
+      </ImgWrapper>
+    </>
+  )
 }
 
-export default App;
+export default App

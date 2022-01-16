@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&family=Roboto:wght@900&display=swap');
+@import './styles/variables.scss';
+body,
+html {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: $font;
+}
+body {
+  background-color: $background;
+  background-image: url('./assets/grain.png');
+  background-position: 0px 0px;
+  background-size: 300px 300px;
+}
