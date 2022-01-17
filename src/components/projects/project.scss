@@ -191,3 +191,20 @@ p {
 .right {
   justify-content: flex-end;
 }
+@media (max-width: 1119px) {
+  .projectContentContainer {
+    margin: 160px auto 0px;
+    padding: 0px 40px;
+  }
+}
+@media (max-width: 800px) {
+  .projectContent {
+    .sectionContentContainer {
+      flex-direction: column;
+
+      .sectionContentItem {
+        width: 100%;
+      }
+    }
+  }
+}

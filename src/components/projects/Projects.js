@@ -50,7 +50,8 @@ const Projects = () => {
                 exit={{ opacity: 0 }}
                 transition={transition}
               >
-                <h3>Course Mapper</h3> <Icon.ArrowRight />
+                <h3 className="projectTitle">Course Mapper</h3>{' '}
+                <Icon.ArrowRight />
               </motion.div>
               <motion.p exit={{ opacity: 0 }} transition={transition}>
                 All-in-one course advice tool
@@ -83,7 +84,7 @@ const Projects = () => {
                 exit={{ opacity: 0 }}
                 transition={transition}
               >
-                <h3>PeerView</h3> <Icon.ArrowRight />
+                <h3 className="projectTitle">PeerView</h3> <Icon.ArrowRight />
               </motion.div>
               <motion.p exit={{ opacity: 0 }} transition={transition}>
                 Deliver digital experience to academic peer review

@@ -87,3 +87,106 @@
     }
   }
 }
+
+@media (max-width: 1119px) {
+  .introContainer {
+    padding: 200px 40px;
+    .imgContainer {
+      right: 500px;
+      top: -120px;
+      .person {
+        width: 400px;
+      }
+      .bulb {
+        width: 80px;
+      }
+      .computer {
+        width: 80px;
+      }
+      .pen {
+        width: 80px;
+        left: 320px;
+      }
+    }
+    .title {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+
+    .design {
+      &::after {
+        top: -1rem;
+        left: 16rem;
+        width: 65px;
+        height: 65px;
+        border-radius: 65px;
+        font-size: 1rem;
+      }
+    }
+    .programming {
+      &::after {
+        line-height: 1rem;
+        top: -1rem;
+        left: 28rem;
+        width: 65px;
+        height: 65px;
+
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 740px) {
+  .introContainer {
+    padding: 260px 40px;
+    .subtitle {
+      width: 140px;
+    }
+    .imgContainer {
+      right: 240px;
+      top: -160px;
+      .person {
+        width: 260px;
+      }
+      .bulb {
+        width: 60px;
+        left: -30px;
+        top: 30px;
+      }
+      .computer {
+        width: 60px;
+      }
+      .pen {
+        width: 60px;
+        left: 200px;
+      }
+    }
+    .title {
+      font-size: 2rem;
+      line-height: 3rem;
+      margin: 6px 0px;
+    }
+
+    .design {
+      &::after {
+        top: -0.2rem;
+        left: 9rem;
+        width: 40px;
+        height: 40px;
+
+        font-size: 0.6rem;
+      }
+    }
+    .programming {
+      &::after {
+        line-height: 0.6rem;
+        top: -0.3rem;
+        left: 13.9rem;
+        width: 40px;
+        height: 40px;
+
+        font-size: 0.6rem;
+      }
+    }
+  }
+}

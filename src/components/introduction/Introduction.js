@@ -82,7 +82,9 @@ const Introduction = () => {
           <motion.img src={pen} alt="pen" className="pen" style={{ y: y4 }} />
         </motion.div>
         <motion.div className="row">
-          <motion.p variants={title}>Hi, I'm Ping who loves</motion.p>
+          <motion.p variants={title} className="subtitle">
+            Hi, I'm Ping who loves
+          </motion.p>
         </motion.div>
         <motion.div className="row">
           <motion.p variants={title} className="title design">

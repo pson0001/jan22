@@ -2,7 +2,7 @@
 .navigationContainer {
   z-index: 1;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   .items {
     display: flex;
     flex-direction: row;
@@ -25,6 +25,13 @@
       margin-left: 11px;
       line-height: 2rem;
       font-weight: 800;
+    }
+  }
+}
+@media (max-width: 1119px) {
+  .navigationContainer {
+    .items {
+      margin: 40px 40px;
     }
   }
 }
