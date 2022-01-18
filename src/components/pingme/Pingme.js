@@ -13,7 +13,11 @@ const Pingme = () => {
           </span>
 
           <span className="description">
-            I collaborate with cross-functional teams throughout the
+            I am currently work as a senior UX engineer and Designer at Monash
+            Univeristy eSolutions.
+          </span>
+          <span className="description">
+            I enjoy collaborating with cross-functional teams throughout the
             user-centered design process to optimize product life-cycle and
             elevate user experience. I am passionate about discovering insights,
             creativity, solving problems, interaction and motion design.

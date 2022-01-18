@@ -17,7 +17,15 @@
       .cats {
         position: relative;
         cursor: pointer;
-
+        &::before {
+          position: absolute;
+          content: '↑ hover to see their photo';
+          font-size: 1rem;
+          text-decoration: none;
+          font-weight: 300;
+          white-space: nowrap;
+          top: 40px;
+        }
         text-decoration: underline;
         &:hover:after {
           content: '';
@@ -36,7 +44,7 @@
   }
   .title {
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-size: 2rem;
     font-weight: 800;
     line-height: 2.6rem;
@@ -59,7 +67,7 @@
 @media (max-width: 1119px) {
   .aboutContainer {
     .about {
-      margin: 120px 40px 0;
+      margin: 200px 40px 0;
       .title {
         margin-top: 40px;
       }
