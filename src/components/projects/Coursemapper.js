@@ -87,15 +87,15 @@ const Coursemapper = () => {
           </div>
           <div className="projectIntro">
             <span>
-              Start from early 2020, international travelling become not easy.
+              By the start of 2020, international travelling became not easy.
               Not surprising that students need more guides on how they pick
               their units and complete their degrees. Student service desks were
               overwhelmed with the course advice enquiries.
             </span>
             <span>
               Our team was tasked to deliver a solution in 2 months. Course
-              Mapper was born and it assisted Course Advisers in Student service
-              desk and faculties to efficiently provide course advice.
+              Mapper was born and it assisted Course Advisers in efficiently
+              providing course advice.
             </span>
             <span>
               Since July 2021, Course Mapper has produced 100k+ personalised
@@ -104,14 +104,59 @@ const Coursemapper = () => {
           </div>
         </motion.div>
         <div className="line"></div>
-        {/* Background */}
+
         <div className="projectContent">
           <div>
-            <span className="sectionTitle">My Role</span>
+            <span className="sectionTitle">Problem Statement</span>
             <p>
-              I worked as a UX/UI designer and front-end developer from end to
-              end.
+              Our goal for the project was to transform a paper-based, manual
+              and time-consuming course mapping progress to a smooth, seamless
+              and easy online experience.
             </p>
+
+            <div className="sectionContentContainer">
+              <div className="sectionContentItem">
+                <div className="icon">
+                  <Icon.Layout />
+                </div>
+                <span className="itemTitle">Information fragmentation</span>
+                <span>//</span>
+              </div>
+              <div className="sectionContentItem">
+                <div className="icon">
+                  <Icon.Dots />
+                </div>
+                <span className="itemTitle">
+                  Vary information display formats
+                </span>
+                <span>/////</span>
+              </div>
+            </div>
+            <div className="sectionContentContainer">
+              <div className="sectionContentItem">
+                <div className="icon">
+                  <Icon.Layout />
+                </div>
+                <span className="itemTitle">
+                  Infinite opened tabs (Web pages and local files)
+                </span>
+                <span>////</span>
+              </div>
+              <div className="sectionContentItem">
+                <div className="icon">
+                  <Icon.Dots />
+                </div>
+                <span className="itemTitle">Inconsistent output</span>
+                <span>/////</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="line"></div>
+
+          <div>
+            <span className="sectionTitle">My Role</span>
+            <p>I led the design of the</p>
             <ul>
               <li>Conducted user interviews to gather pain points</li>
               <li>
@@ -206,50 +251,6 @@ const Coursemapper = () => {
             </div>
           </div>
           <div className="line"></div>
-          {/* Prototype */}
-          <div>
-            <span className="sectionTitle">Problem Statement</span>
-
-            <div className="sectionContentContainer">
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Layout />
-                </div>
-                <span className="itemTitle">Information fragmentation</span>
-                <span>////</span>
-              </div>
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Dots />
-                </div>
-                <span className="itemTitle">
-                  Vary information display formats
-                </span>
-                <span>/////</span>
-              </div>
-            </div>
-            <div className="sectionContentContainer">
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Layout />
-                </div>
-                <span className="itemTitle">
-                  Infinite opened tabs (Web pages and local files)
-                </span>
-                <span>////</span>
-              </div>
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Dots />
-                </div>
-                <span className="itemTitle">Inconsistent output</span>
-                <span>/////</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="line"></div>
-          {/* Build */}
 
           <div>
             <span className="sectionTitle">Brainstorm</span>
@@ -288,9 +289,7 @@ const Coursemapper = () => {
                 </span>
                 <iframe
                   src="https://drive.google.com/file/d/1aVB5vu2ieN7mtR_kJ8SRz_UQRakUzDuI/preview"
-                  width={
-                    window.innerWidth > 1400 ? 1400 : window.innerWidth - 240
-                  }
+                  width={window.innerWidth - 240}
                   height={window.innerWidth / 2}
                 ></iframe>
               </div>
