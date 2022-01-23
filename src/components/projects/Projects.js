@@ -87,7 +87,7 @@ const Projects = () => {
                 <h3 className="projectTitle">PeerView</h3> <Icon.ArrowRight />
               </motion.div>
               <motion.p exit={{ opacity: 0 }} transition={transition}>
-                Deliver digital experience to academic peer review
+                Delivers digital experience to academic peer review
               </motion.p>
             </div>
           </Link>

@@ -87,16 +87,13 @@ const Coursemapper = () => {
           </div>
           <div className="projectIntro">
             <span>
-              By the start of 2020, international travelling became not easy.
-              Not surprising that students need more guides on how they pick
-              their units and complete their degrees. Student service desks were
-              overwhelmed with the course advice enquiries.
+              2020 brought with many difficulties, one of them being
+              international travel. Students need more guidence on how they pick
+              their units and complete their degrees. Course mapper aims to
+              releave the Student service desk from overwhelmed enquiries and
+              guides students on these uncertain time.
             </span>
-            <span>
-              Our team was tasked to deliver a solution in 2 months. Course
-              Mapper was born and it assisted Course Advisers in efficiently
-              providing course advice.
-            </span>
+
             <span>
               Since July 2021, Course Mapper has produced 100k+ personalised
               course plans for students.
@@ -125,8 +122,8 @@ const Coursemapper = () => {
                 <span>
                   There are many information course advisers need to refer to
                   during the course mapping process. Every piece of information
-                  live on different platforms, so inevitably there are infinite
-                  tabs opened (Web pages and local files)
+                  lives on different platforms, so inevitably there are infinite
+                  tabs opened during the process(Web pages and local files).
                 </span>
               </div>
               <div className="sectionContentItem">
@@ -138,7 +135,7 @@ const Coursemapper = () => {
                   In student perspective, they will get course advise from
                   different course advisers during their study. Because of the
                   mannul process, it is hard to refer back to the previous
-                  course mapping.
+                  suggested course plans.
                 </span>
               </div>
             </div>
@@ -148,9 +145,12 @@ const Coursemapper = () => {
                   <Icon.Dots />
                 </div>
                 <span className="itemTitle">
-                  Vary information display formats
+                  Unstandard data display formats
                 </span>
-                <span>Same information displays in different formats.</span>
+                <span>
+                  Course advisers are working with data from different sources
+                  and formats.
+                </span>
               </div>
             </div>
           </div>
@@ -160,13 +160,8 @@ const Coursemapper = () => {
           <div>
             <span className="sectionTitle">My Role</span>
             <p>
-              I led the design of the course advice experience and collaborated
-              with two other designers.
-            </p>
-            <p>
-              In addtion, I also work as front-end developer alongside with 3
-              other front-end devlopers, 1 back-end developer and 1 product
-              owner.
+              I led the design of the course advice experience, collaborated
+              with designers and I worked on the front-end development.
             </p>
           </div>
 
@@ -175,7 +170,7 @@ const Coursemapper = () => {
           {/* Research */}
 
           <div>
-            <span className="sectionTitle">Target audience</span>
+            <span className="sectionTitle">Users and Audience</span>
             <p>There are two type of users of this app.</p>
 
             <div className="sectionContentContainer">
@@ -216,9 +211,10 @@ const Coursemapper = () => {
                   User Interviews and User Journey Mapping
                 </span>
                 <span>
-                  I conducted many interviews with end-users to understand the
-                  current review process, pain points, opportunities and their
-                  expectations about the app.
+                  I conducted many interviews with the end-users(both staff and
+                  students) to understand the current process that is in place,
+                  pain points, opportunities and their expectations about the
+                  app.
                 </span>
               </div>
               <div className="sectionContentItem">
@@ -227,9 +223,8 @@ const Coursemapper = () => {
                 </div>
                 <span className="itemTitle">Enquiries Analysis</span>
                 <span>
-                  I conducted many interviews with end-users to understand the
-                  current review process, pain points, opportunities and their
-                  expectations about the app.
+                  I did research analysis on different categories of student
+                  enquiries and synthesized requirements and expectations.
                 </span>
               </div>
             </div>
@@ -277,7 +272,7 @@ const Coursemapper = () => {
             </div>
 
             <p>
-              Since Course Mapper's launch, it receive many positive feedbacks.
+              Since Course Mapper's launch, it received many positive feedbacks.
               It has been rolled out to 10 faculties and people loved it!
             </p>
             <p>
