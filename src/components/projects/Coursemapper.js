@@ -114,14 +114,35 @@ const Coursemapper = () => {
               and easy online experience.
             </p>
 
+            <p>There are 3 core problems that I identified:</p>
+
             <div className="sectionContentContainer">
               <div className="sectionContentItem">
                 <div className="icon">
                   <Icon.Layout />
                 </div>
                 <span className="itemTitle">Information fragmentation</span>
-                <span>//</span>
+                <span>
+                  There are many information course advisers need to refer to
+                  during the course mapping process. Every piece of information
+                  live on different platforms, so inevitably there are infinite
+                  tabs opened (Web pages and local files)
+                </span>
               </div>
+              <div className="sectionContentItem">
+                <div className="icon">
+                  <Icon.Dots />
+                </div>
+                <span className="itemTitle">Inconsistent output</span>
+                <span>
+                  In student perspective, they will get course advise from
+                  different course advisers during their study. Because of the
+                  mannul process, it is hard to refer back to the previous
+                  course mapping.
+                </span>
+              </div>
+            </div>
+            <div className="sectionContentContainer">
               <div className="sectionContentItem">
                 <div className="icon">
                   <Icon.Dots />
@@ -129,25 +150,7 @@ const Coursemapper = () => {
                 <span className="itemTitle">
                   Vary information display formats
                 </span>
-                <span>/////</span>
-              </div>
-            </div>
-            <div className="sectionContentContainer">
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Layout />
-                </div>
-                <span className="itemTitle">
-                  Infinite opened tabs (Web pages and local files)
-                </span>
-                <span>////</span>
-              </div>
-              <div className="sectionContentItem">
-                <div className="icon">
-                  <Icon.Dots />
-                </div>
-                <span className="itemTitle">Inconsistent output</span>
-                <span>/////</span>
+                <span>Same information displays in different formats.</span>
               </div>
             </div>
           </div>
@@ -156,31 +159,15 @@ const Coursemapper = () => {
 
           <div>
             <span className="sectionTitle">My Role</span>
-            <p>I led the design of the</p>
-            <ul>
-              <li>Conducted user interviews to gather pain points</li>
-              <li>
-                Organised and hosted brainstorming sessions with other designers
-              </li>
-
-              <li>Documented user flows and ideas</li>
-              <li>
-                Guided and worked with other designers to create a full set of
-                design solutions
-              </li>
-              <li>Conducted usability testing via Figma prototype</li>
-              <li>Implemented several features as a frontend developer</li>
-              <li>Conducted usability testing via the web applications</li>
-
-              <li>
-                Follow up with end-users feedback to continue iterating app
-                features
-              </li>
-              <li>
-                Conduct workshops to all course advisors (Student service desk
-                and all faculties)
-              </li>
-            </ul>
+            <p>
+              I led the design of the course advice experience and collaborated
+              with two other designers.
+            </p>
+            <p>
+              In addtion, I also work as front-end developer alongside with 3
+              other front-end devlopers, 1 back-end developer and 1 product
+              owner.
+            </p>
           </div>
 
           <div className="line"></div>
@@ -188,28 +175,28 @@ const Coursemapper = () => {
           {/* Research */}
 
           <div>
-            <span className="sectionTitle">Expectations</span>
+            <span className="sectionTitle">Target audience</span>
+            <p>There are two type of users of this app.</p>
 
             <div className="sectionContentContainer">
               <div className="sectionContentItem">
                 <div className="icon">
                   <Icon.People />
                 </div>
-                <span className="itemTitle">Reduce Handling Time</span>
+                <span className="itemTitle">Staff - Course advisers</span>
                 <span>
-                  It takes course advisors 20+ minutes to create a personalised
-                  course map.
+                  Use this app to map out students' current course progression
+                  and future unit selections.
                 </span>
               </div>
               <div className="sectionContentItem">
                 <div className="icon">
                   <Icon.Computer />
                 </div>
-                <span className="itemTitle">Elimate Mannul Efforts </span>
+                <span className="itemTitle">Students</span>
                 <span>
-                  During the research stage, I noticed that course advisors
-                  spent significate time on copying, checking and comparing
-                  information.
+                  Receive a read-only weblink that displays their current course
+                  progression and the units course advisers suggested.
                 </span>
               </div>
             </div>
@@ -281,12 +268,6 @@ const Coursemapper = () => {
 
             <div className="sectionContentContainer">
               <div className="sectionContentItem sectionContentItemFull">
-                <span>
-                  With the unique feature of this app, I proposed a design style
-                  that may not be seen very often in a university project. I am
-                  happy to say that my design direction was approved for
-                  implementation.
-                </span>
                 <iframe
                   src="https://drive.google.com/file/d/1aVB5vu2ieN7mtR_kJ8SRz_UQRakUzDuI/preview"
                   width={window.innerWidth - 240}
@@ -294,6 +275,15 @@ const Coursemapper = () => {
                 ></iframe>
               </div>
             </div>
+
+            <p>
+              Since Course Mapper's launch, it receive many positive feedbacks.
+              It has been rolled out to 10 faculties and people loved it!
+            </p>
+            <p>
+              With the user feedbacks in the real world, we have done serveral
+              iterations and releases after its launch.
+            </p>
           </div>
 
           <div className="line"></div>
